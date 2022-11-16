@@ -1,0 +1,117 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/javascript/vis_tool.js"></script>
+<script>
+$(document).ready(function(){
+
+// static json content 
+// contains all data needed to display the network
+/*
+json_data = {
+"nodes":["alpha","beta","gamma","bob","alice"],
+"edges":[
+["alpha","beta"],["alpha","gamma"],
+["alpha","bob"],["alpha","alice"]
+]
+}
+*/
+json_data = {
+nodes:[
+{
+gene_id: "Zm00001d018971",
+protein_name: "ZmbZIP1",
+},
+{
+gene_id: "Zm00001d047582",
+},
+{
+gene_id: "Zm00001d026633",
+},
+{
+gene_id: "Zm00001d027317",
+protein_name: "ZmHB58"
+},
+{
+gene_id: "Zm00001d021519",
+},
+{
+gene_id: "Zm00001d028808",
+},
+],
+edges:[
+{
+gene_id: "Zm00001d018971",
+target_id: "Zm00001d047582",
+distance: 1.986,
+experiment: "ChIP",
+support: 1
+},
+{
+gene_id: "Zm00001d018971",
+target_id: "Zm00001d026633",
+distance: .534,
+experiment: "ChIP",
+support: 1
+},
+{
+gene_id: "Zm00001d018971",
+target_id: "Zm00001d027317",
+distance: .881,
+experiment: "ChIP",
+support: 3
+},
+{
+gene_id: "Zm00001d018971",
+target_id: "Zm00001d021519",
+distance: -.208,
+experiment: "ChIP",
+support: 4
+},
+{
+gene_id: "Zm00001d018971",
+target_id: "Zm00001d028808",
+distance: -.569,
+experiment: "ChIP",
+support: 1
+}
+]
+}
+
+
+var c = document.getElementById('my_canvas');
+var ctx = c.getContext('2d');
+
+
+show_network_with_static_json(ctx,800,600,json_data);
+add_mouse_listener_to_canvas(c,ctx);
+});
+</script>
+<style>
+.hovermenu {
+position: absolute;
+top: 0px;
+left: -300px;
+display: none;
+font-family: sans-serif;
+font-size: 12px;
+width: 200px;
+height: auto;
+background-color: #555;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 8px 6px;
+position: absolute;
+z-index: 100;
+opacity: 1.0;
+}
+
+.hovermenu.visible {
+display: block;
+}
+</style>
+<div class="hovermenu"></div>
+
+<canvas id="my_canvas" width="800" height="600">
+
+</canvas>
