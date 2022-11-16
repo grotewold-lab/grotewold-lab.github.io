@@ -33,6 +33,7 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
+  - projects.md
   - network_visualization.md
 
 # Exclude from processing.
