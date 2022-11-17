@@ -33,6 +33,14 @@ layout: default
                     CV <a href="/assets/docs/{{ page.cv | escape }}">here</a>
                     <br>
                 {%- endif -%}
+                {%- if page.mentor -%}
+                    Mentor: {{ page.mentor | escape }}
+                    <br>
+                {%- endif -%}
+                {%- if page.mentors -%}
+                    Mentors: {{ page.mentors | escape }}
+                    <br>
+                {%- endif -%}
             </div>
         </div>
         <br>

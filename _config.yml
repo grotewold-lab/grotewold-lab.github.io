@@ -40,17 +40,29 @@ header_pages:
 # list of lab members to appear on "People" page
 # (should be a subset of the files in people folder)
 current_members:
+  - people/emily-pawlowski.md
   - people/fabio-gomez-cano.md
-  - people/julia-matalon.md
+  - people/hesham-abdullah.md
   - people/lina-gomez-cano.md
   - people/mariel-cruz-gomez.md
   - people/nan-jiang.md
   - people/oliver-tessmer.md
   - people/radin-sadre.md
+  - people/rajneesh-singhai.md
   - people/sunnie-lee.md
   - people/suresh-gupta.md
   - people/tatiana-garcia.md
   - people/yi-hsuan-chu.md
+  
+current_undergrads:
+  - people/beth-shackleford.md
+  - people/chris-infante.md
+  - people/julia-matalon.md
+  - people/lily-moura.md
+  - people/luke-benedict.md
+  - people/meadow-maturen.md
+  - people/sara-hasegawa.md
+
   
 former_members:
   - people/allison-barbaglia-hurlock.md

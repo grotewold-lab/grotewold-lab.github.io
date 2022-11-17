@@ -1,5 +1,5 @@
 
-Current Lab Members
+Current Lab Members:
 
 <ul>
         {%- for path in site.current_members -%}
@@ -12,8 +12,22 @@ Current Lab Members
         {% endfor -%}
     
 </ul>
+
+Current Undergraduate Lab Members:
+
+<ul>
+        {%- for path in site.current_undergrads -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <li>
+            <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          </li>
+          {%- endif -%}
+        {% endfor -%}
+    
+</ul>
         
-Former Lab Members
+Previous Lab Members:
 
 <ul>
         {%- for path in site.former_members -%}
