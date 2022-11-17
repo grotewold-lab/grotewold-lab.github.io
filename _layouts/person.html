@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<article>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                {%- if page.image -%}
+                    <img alt="{{ page.title | escape }}" src="/assets/images/{{ page.image }}"/>
+                {%- endif -%}
+            </div>
+
+            <div class="col-md-9 col-sm-12">
+                <strong>{{ page.title | escape }}</strong>
+                <br>
+                {{ page.position | escape }}
+                <hr>
+                
+                {%- if page.email -%}
+                    Email: {{ page.email | escape }}
+                    <br>
+                {%- endif -%}
+                {%- if page.phone -%}
+                    Phone: {{ page.phone | escape }}
+                    <br>
+                {%- endif -%}
+                {%- if page.link -%}
+                    Google Scholar Link <a href="{{ page.link | escape }}">here</a>
+                    <br>
+                {%- endif -%}
+                {%- if page.cv -%}
+                    CV <a href="/assets/docs/{{ page.cv | escape }}">here</a>
+                    <br>
+                {%- endif -%}
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <section>
+                    {{ content }}
+                </section>
+            </div>
+        </div>
+    </div>
+</article>
