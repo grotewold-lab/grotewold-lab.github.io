@@ -34,7 +34,35 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - projects.md
+  - people.md
   - network_visualization.md
+  
+# list of lab members to appear on "People" page
+# (should be a subset of the files in people folder)
+current_members:
+  - people/fabio-gomez-cano.md
+  - people/julia-matalon.md
+  - people/lina-gomez-cano.md
+  - people/mariel-cruz-gomez.md
+  - people/nan-jiang.md
+  - people/oliver-tessmer.md
+  - people/radin-sadre.md
+  - people/sunnie-lee.md
+  - people/suresh-gupta.md
+  - people/tatiana-garcia.md
+  - people/yi-hsuan-chu.md
+  
+former_members:
+  - people/allison-barbaglia-hurlock.md
+  - people/audrey-tacderas.md
+  - people/eric-mukundi-maina.md
+  - people/hadi-nayebi-gavgani.md
+  - people/kengo-morohashi.md
+  - people/shannon-schrope.md
+  - people/spencer-kuehn.md
+  - people/yabdiel-olmeda-santiago.md
+  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
