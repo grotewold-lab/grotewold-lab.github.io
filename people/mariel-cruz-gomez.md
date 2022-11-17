@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /mariel-cruz-gomez
-title: Leidy Mariel Crus Gomez
+title: Leidy Mariel Cruz Gomez
 position: Lab Manager
 image: mariel_2.jpg
 email: cruzgome@msu.edu
