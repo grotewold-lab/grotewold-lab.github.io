@@ -36,6 +36,7 @@ header_pages:
   - projects.md
   - people.md
   - publications.md
+  - databases.md
   - network-visualization.md
   
 # list of lab members to appear on "People" page
