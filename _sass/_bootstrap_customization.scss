@@ -117,3 +117,33 @@ table,
 .list-group {
   font-size: $font-size-sm;
 }
+
+
+// github icon in header
+
+.github-icon {
+  background-image: url(/assets/images/github.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(45deg) brightness(105%) contrast(100%);
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+
+// footer
+
+.footer {
+  background-color: $primary;   
+  color: $white;
+  font-size: 12px;
+}
+
+.footer a {
+  color: $white;
+}
+
+.footer p {
+  margin-bottom: 0px;   
+}

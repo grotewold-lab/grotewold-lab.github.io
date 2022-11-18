@@ -30,7 +30,9 @@ $green:   #02b875 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-$primary:       $blue !default;
+$msu_green: #18453B !default;
+
+$primary:       $msu_green !default;
 $secondary:     $gray-500 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -48,8 +50,8 @@ $body-color:                $gray-800 !default;
 // Fonts
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-serif:           Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:      "Gotham SSm A","Gotham SSm B",arial,sans-serif !default;
+$font-family-serif:           "Gotham SSm A","Gotham SSm B",arial,sans-serif !default;
 // stylelint-enable
 
 $font-size-base:              1.1rem !default;
