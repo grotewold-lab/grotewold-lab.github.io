@@ -35,7 +35,8 @@ plugins:
 header_pages:
   - projects.md
   - people.md
-  - network_visualization.md
+  - publications.md
+  - network-visualization.md
   
 # list of lab members to appear on "People" page
 # (should be a subset of the files in people folder)
