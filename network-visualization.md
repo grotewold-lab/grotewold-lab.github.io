@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Network Visualization Demo
-permalink: /network_visualization
+permalink: /network-visualization
 ---
 
 {% include network_visualization.html %}

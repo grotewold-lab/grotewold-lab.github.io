@@ -2,7 +2,6 @@
 layout: page
 title: People
 permalink: /people
-image: Allison_labpic.png
 ---
 
 
