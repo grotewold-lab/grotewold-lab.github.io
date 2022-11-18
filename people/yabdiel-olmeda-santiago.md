@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: /tatiana-garcia
+permalink: /yabdiel-olmeda-santiago
 title: Yabdiel Olmeda Santiago
 position: SiGuE Fellow
 image: Yabdiel Olmeda Santiago.jpg
