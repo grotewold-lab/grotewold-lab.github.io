@@ -33,6 +33,7 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
+  - news.md
   - projects.md
   - people.md
   - publications.md

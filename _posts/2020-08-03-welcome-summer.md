@@ -1,0 +1,6 @@
+---
+layout: post
+title: New SiGuE Student - Welcome Summer Blanco!
+---
+
+The Grotewold lab is welcoming a new SiGuE student today!  Summer Blanco is joining the lab as part of the SiGuE program.  She is coming to us from California and we are looking forward to having her in the lab.  A little bit about Summer:  She recently graduated from Cal Poly Pomona with a BS in Biology with a Botany option. During her undergrad, her research experience was primarily focused on evolutionary and developmental biology. As she prepares for her PhD, she is interested in exploring research on secondary metabolites in angiosperms and the applications of this work. Outside of research and coursework, Summer has been heavily involved on campus with various organizations (Rose Float, LGBTQ+ Center, Students of Color in STEM). Upon completing her graduate education, Summer hopes to lead her own research lab and get involved in diversity, equity, and inclusion in the sciences. When Summer is not at school, you can find her drinking an oat milk latte, falling in the streets in my roller skates, listening to live music, or visiting a local museum!  Feel free to stop by to say hello and get to know Summer.  Once again welcome Summer!  Glad to have you in the lab! 

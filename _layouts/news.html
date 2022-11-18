@@ -14,12 +14,13 @@ layout: default
     {{ content }}
   </section>
     
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    
   {%- if site.posts.size > 0 -%}
     <br>
     <br>
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
     <ul class="news list-unstyled">
-      {%- for post in site.posts limit:5 -%}
+      {%- for post in site.posts -%}
       <li>
         <span class="text-muted">
           {%- assign date_format = "%b %-d, %Y" -%}
@@ -36,12 +37,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <br>
-    
-    <p><a href="/news">View all News</a></p>
-    
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
