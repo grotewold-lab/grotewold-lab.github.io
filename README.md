@@ -7,6 +7,10 @@ Grotewold lab website
 
 - add a new .md file to [_posts folder](_posts)
 
+## Add Publication
+
+- add a new .md file to [_publications folder](_publications)
+
 ## Add Lab Member
 
 - add picture to [assets/images folder](assets/images)
