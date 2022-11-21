@@ -31,6 +31,14 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+
+# Load md files in _publications folder
+# used in publications.md
+collections:
+  publications:
+    sort_by: path
+
+
 # A list of the pages to display in the navigation bar
 header_pages:
   - news.md
