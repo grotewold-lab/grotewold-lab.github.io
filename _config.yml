@@ -47,7 +47,6 @@ header_pages:
   - publications.md
   - databases.md
   - resources.md
-  - network-visualization.md
   
 # list of lab members to appear on "People" page
 # (should be a subset of the files in people folder)
