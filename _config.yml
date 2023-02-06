@@ -53,13 +53,11 @@ header_pages:
 current_members:
   - people/emily-pawlowski.md
   - people/fabio-gomez-cano.md
-  - people/hesham-abdullah.md
   - people/lina-gomez-cano.md
   - people/mariel-cruz-gomez.md
   - people/nan-jiang.md
   - people/oliver-tessmer.md
   - people/radin-sadre.md
-  - people/rajneesh-singhai.md
   - people/sunnie-lee.md
   - people/suresh-gupta.md
   - people/tatiana-garcia.md
@@ -76,6 +74,8 @@ current_undergrads:
 
   
 former_members:
+  - people/hesham-abdullah.md
+  - people/rajneesh-singhai.md
   - people/allison-barbaglia-hurlock.md
   - people/audrey-tacderas.md
   - people/eric-mukundi-maina.md
