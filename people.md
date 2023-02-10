@@ -1,6 +1,6 @@
 ---
 layout: page
-title: People
+title: Current Lab Members
 permalink: /people
 ---
 

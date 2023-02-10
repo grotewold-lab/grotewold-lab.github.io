@@ -8,19 +8,28 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          </li>
-          {%- endif -%}
-        {% endfor -%}
+        <ul class="navbar-nav ml-auto">     
+            ‬
+            {%- assign section_index = 0 -%}  
+            {% for section in site.navigation %}
+            <li class="nav-item">
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-hover" href="{{ section.url }}" role="button" id="dropdownMenuLink{{ section_index }}" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">{{ section.title }} <div class="dropdown-icon"></div></a>
+                    {% if section.subpages %}
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink{{ section_index }}">
+                        {% for page in section.subpages %}
+                        <a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+            </li>
+            {%- assign section_index = section_index+1 -%}   
+            {% endfor %}   
+            
           <a class="small-icon dev-icon" title="EGLab-Dev" href="https://eglab-dev.com"></a>
           <a class="small-icon github-icon" title="GitHub" href="https://github.com/grotewold-lab"></a>
           <a class="small-icon twitter-icon" title="Twitter" href="https://twitter.com/GrotewoldLab"></a>
-      </ul>
+        </ul>
     </div>
   </div>
 </nav>

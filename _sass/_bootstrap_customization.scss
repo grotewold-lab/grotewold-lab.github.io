@@ -8,7 +8,41 @@
   color-scheme: light;
 }
 
+
+// thumbnail images on lists of lab members
+.person-thumb {
+    margin: 10px;   
+}
+
+.person-thumb img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
 // Navbar
+.dropdown-hover {
+    background-color: $msu_green;
+    color: white;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.dropdown-icon {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -webkit-mask: url('/assets/images/caret-down-fill.svg') no-repeat center;
+  mask: url('/assets/images/caret-down-fill.svg') no-repeat center;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
 
 .navbar {
   font-size: $font-size-sm;

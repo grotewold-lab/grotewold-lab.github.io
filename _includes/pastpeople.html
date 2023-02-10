@@ -1,0 +1,21 @@
+<div class="row">
+    {%- for path in site.former_members -%}
+      {%- assign pages = site.pages | where: "path", path | first -%}
+      {%- if pages.title -%}
+      <div class="col-sm-6 col-md-3 col-lg-2">
+        <div class="person-thumb">
+            <a href="{{ pages.url | relative_url }}">
+                {%- if pages.image -%}
+                    <img alt="{{ pages.title | escape }}" src="/assets/images/{{ pages.image }}"/>
+                {%- endif -%}
+                <br>
+                {{ pages.title | escape }}
+            </a>
+        </div>
+      </div>
+      {%- endif -%}
+    {% endfor -%}
+</div>
+<br>
+<br>
+<a href="/people">View Current Lab Members</a>

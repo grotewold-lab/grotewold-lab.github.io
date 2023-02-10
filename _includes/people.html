@@ -4,46 +4,49 @@ Principal Investigator: Erich Grotewold
 &nbsp;&nbsp;&nbsp;(<a href="https://bmb.natsci.msu.edu/about/bmb-community-profiles/erich-grotewold-bmb-community-profile.aspx">community profile</a>) (<a href="https://scholar.google.com/citations?user=qJ8iOCsAAAAJ&hl=en">google scholar</a>) (<a href="https://pubmed.ncbi.nlm.nih.gov/?term=Grotewold+E&cauthor_id=34865154">pubmed</a>)
 
 <br>
-Current Lab Members:
+<strong>Current Lab Members:</strong>
 
-<ul>
-        {%- for path in site.current_members -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li>
-            <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          </li>
-          {%- endif -%}
-        {% endfor -%}
-    
-</ul>
+<div class="row">
+    {%- for path in site.current_members -%}
+      {%- assign pages = site.pages | where: "path", path | first -%}
+      {%- if pages.title -%}
+      <div class="col-sm-6 col-md-3 col-lg-2">
+        <div class="person-thumb">
+            <a href="{{ pages.url | relative_url }}">
+                {%- if pages.image -%}
+                    <img alt="{{ pages.title | escape }}" src="/assets/images/{{ pages.image }}"/>
+                {%- endif -%}
+                <br>
+                {{ pages.title | escape }}
+            </a>
+        </div>
+      </div>
+      {%- endif -%}
+    {% endfor -%}
+</div>
 
 <br>
-Current Undergraduate Lab Members:
+<strong>Current Undergraduate Lab Members:</strong>
 
-<ul>
-        {%- for path in site.current_undergrads -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li>
-            <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          </li>
-          {%- endif -%}
-        {% endfor -%}
-    
-</ul>
 
-<br>  
-Previous Lab Members:
-
-<ul>
-        {%- for path in site.former_members -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-          <li>
-            <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          </li>
-          {%- endif -%}
-        {% endfor -%}
-    
-</ul>
+<div class="row">
+    {%- for path in site.current_undergrads -%}
+      {%- assign pages = site.pages | where: "path", path | first -%}
+      {%- if pages.title -%}
+      <div class="col-sm-6 col-md-3 col-lg-2">
+        <div class="person-thumb">
+            <a href="{{ pages.url | relative_url }}">
+                {%- if pages.image -%}
+                    <img alt="{{ pages.title | escape }}" src="/assets/images/{{ pages.image }}"/>
+                {%- endif -%}
+                <br>
+                {{ pages.title | escape }}
+            </a>
+        </div>
+      </div>
+      {%- endif -%}
+    {% endfor -%}
+</div>
+<br>
+<br>
+<a href="/pastpeople">View Previous Lab Members</a>

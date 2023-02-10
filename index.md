@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Grotewold Lab
 list_title: Recent News
 ---
+
 
 ### Hello! Welcome to the Grotewold Lab website!
 

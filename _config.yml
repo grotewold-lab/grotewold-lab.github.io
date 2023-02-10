@@ -39,14 +39,48 @@ collections:
     sort_by: path
 
 
-# A list of the pages to display in the navigation bar
-header_pages:
-  - news.md
-  - projects.md
-  - people.md
-  - publications.md
-  - databases.md
-  - resources.md
+# navigation bar with dropdowns
+navigation:
+    - title: Projects
+      url: /projects
+      subpages:
+        - title: Gene Regulation
+          url: /projects#project1
+        - title: Phenolic Compounds
+          url: /projects#project2
+        - title: Flavone Pathways
+          url: /projects#project3
+        - title: Seed Oils
+          url: /projects#project4
+          
+    - title: Databases
+      url: /databases
+      subpages:
+        - title: Agris
+          url: /databases#agris
+        - title: GRASSIUS
+          url: /databases#grassius
+        - title: CamRegBase
+          url: /databases#camregbase
+
+    - title: Information
+      url: /
+      subpages:
+        - title: News
+          url: /news
+        - title: Publications
+          url: /publications
+        - title: Resources
+          url: /resources
+
+    - title: People
+      url: /people
+      subpages:
+        - title: Current Members
+          url: /people
+        - title: Pevious Members
+          url: /pastpeople
+          
   
 # list of lab members to appear on "People" page
 # (should be a subset of the files in people folder)
