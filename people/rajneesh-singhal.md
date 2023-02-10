@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: /rajneesh-singhai
+permalink: /rajneesh-singhal
 title: Rajneesh Singhal
 position: Research Associate (Postdoc)
 image: rajneesh.jpg
