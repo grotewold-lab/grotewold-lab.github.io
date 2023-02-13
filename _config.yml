@@ -78,7 +78,7 @@ navigation:
       subpages:
         - title: Current Members
           url: /people
-        - title: Pevious Members
+        - title: Previous Members
           url: /pastpeople
           
   
