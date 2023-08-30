@@ -86,7 +86,6 @@ navigation:
 # (should be a subset of the files in people folder)
 current_members:
   - people/andre-wyzykowski.md
-  - people/avery-hickcox.md
   - people/aytug-ulutas.md
   - people/emily-pawlowski.md
   - people/fabio-gomez-cano.md
@@ -95,9 +94,7 @@ current_members:
   - people/liz-christensen.md
   - people/mariel-cruz-gomez.md
   - people/nan-jiang.md
-  - people/nevaeh-marshall.md
   - people/oliver-tessmer.md
-  - people/radin-sadre.md
   - people/rigo-santiago.md
   - people/sunnie-lee.md
   - people/suresh-gupta.md
@@ -111,6 +108,9 @@ current_undergrads:
 
   
 former_members:
+  - people/avery-hickcox.md
+  - people/nevaeh-marshall.md
+  - people/radin-sadre.md
   - people/sara-hasegawa.md
   - people/beth-shackleford.md
   - people/julia-matalon.md
