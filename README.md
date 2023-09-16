@@ -135,3 +135,25 @@ Grotewold lab website
 
 - Locate the relevent line in [_config.yml](_config.yml) under `current_members:` or `current_undergrads:`
 - Cut that line and paste it under `former_members:`
+
+## Remove Sensitive Information
+- Use `git filter-repo` or [BFG](https://rtyley.github.io/bfg-repo-cleaner/) to completely remove sensitive data from the history.
+
+  <details>
+  <summary>more details</summary>
+
+  [github doc: Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
+  
+  [BFG Repo cleaner (tool recommended in github doc)](https://rtyley.github.io/bfg-repo-cleaner/)
+  
+  example:
+  ```bash
+  wget https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar
+  git clone --mirror git://example.com/some-big-repo.git
+  java -jar bfg-1.14.0.jar --delete-files FILENAME-WITH-SENSITIVE-DATA some-big-repo.git
+  # follow prompts from bfg
+  git push --force
+  ```
+
+  </details>
+
