@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Current Lab Members
+title: Grotewold Lab Members
 permalink: /people
 ---
 
