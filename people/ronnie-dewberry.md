@@ -1,0 +1,9 @@
+---
+layout: person
+permalink: /aytug-ulutas
+title: Ronnie Dewberry
+position: Rotation Student
+image: ronnie-dewberry.png
+phone: (517) 353-6767 
+cv: CV_Ronnie Dewberry 8.9.2023.pdf
+---
