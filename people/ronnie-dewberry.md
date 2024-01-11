@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: /aytug-ulutas
+permalink: /ronnie-dewberry
 title: Ronnie Dewberry
 position: Rotation Student
 image: ronnie-dewberry.png
