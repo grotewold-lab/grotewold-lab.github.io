@@ -6,7 +6,7 @@ position: Visiting Adjunct Scholar
 image: yingni.png
 email: xiaoyin8@msu.edu
 phone: (517) 353-6767 
-cv: CV-Yingni Xiao_2025.docx
+cv: CV_Yingni Xiao_2025.docx
 ---
 
 
