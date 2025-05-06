@@ -2,7 +2,7 @@
 layout: person
 permalink: /sophia-gudinas
 title: Sophia Gudinas
-position: Undergraduate Student Researcher
+position: Undergraduate
 image: Gudinas_Sophia.jpg
 email: gudinass@msu.edu
 phone: (517) 353-6767 
