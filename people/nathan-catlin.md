@@ -2,7 +2,7 @@
 layout: person
 permalink: /nathan-catlin
 title: Nathan Catlin
-position: Postdoctoral Research Scholar
+position: Research Associate (Postdoc)
 image: Nathan_Catlin.jpg
 email: catlinna@msu.edu
 phone: (517) 353-6767 
