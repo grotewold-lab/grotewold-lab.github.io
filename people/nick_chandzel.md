@@ -3,7 +3,7 @@ layout: person
 permalink: /nick-chandzel
 title: Nick Chandzel
 position: Undergraduate Student Researcher
-image: Nick_Chandzel.jpg
+image: Nick_Chandzel.JPEG
 email: chandze1@msu.edu
 
 ---
