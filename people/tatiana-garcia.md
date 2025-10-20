@@ -3,7 +3,7 @@ layout: person
 permalink: /tatiana-garcia
 title: Leidy Tatiana Garcia Navarrete
 position: Visiting Scholar
-image: garcia-navarrete-tatiana.jpg
+image: tatiana.jpeg
 email: garci496@msu.edu
 phone: (517) 353-6767 
 link: https://scholar.google.com/citations?user=M5-Xa0IAAAAJ&hl=en
