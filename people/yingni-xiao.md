@@ -2,7 +2,7 @@
 layout: person
 permalink: /yingni-xiao
 title: Yingni Xiao
-position: Visiting Adjunct Scholar
+position: Visiting Professor
 image: yingni.png
 email: xiaoyin8@msu.edu
 phone: (517) 353-6767 
