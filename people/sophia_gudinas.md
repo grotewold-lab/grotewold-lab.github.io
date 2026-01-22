@@ -2,10 +2,10 @@
 layout: person
 permalink: /sophia-gudinas
 title: Sophia Gudinas
-position: Undergraduate
+position: Post-baccalaureate Research Fellow
 image: Gudinas_Sophia.jpg
-email: gudinass@msu.edu
-phone: (517) 353-6767 
+email: gudinass@msu.edu 
+cv: Sophia Gudinas CV  .pdf
 
 ---
 
