@@ -86,26 +86,25 @@ navigation:
 # list of lab members to appear on "People" page
 # (should be a subset of the files in people folder)
 current_members:
+  - people/ashton-datko.md
   - people/elliot-braun.md
   - people/emily-pawlowski.md
-  - people/nathan-catlin.md
   - people/ronnie-dewberry.md
+  - people/sophia_gudinas.md
   - people/tatiana-garcia.md
   - people/yingni-xiao.md
   
 current_undergrads:
-  - people/sophia_gudinas.md
   - people/nick_chandzel.md
   - people/rupal-athalye.md
 
-current_rotations:
-  - people/ashton-datko.md
-  - people/jeanne-holladay.md
-  - people/yuxin-jiang.md
-  - people/jedidiah-peek.md
 
   
 former_members:
+  - people/nathan-catlin.md
+  - people/jeanne-holladay.md
+  - people/yuxin-jiang.md
+  - people/jedidiah-peek.md
   - people/solo-mercene.md
   - people/lina-gomez-cano.md
   - people/sunnie-lee.md
